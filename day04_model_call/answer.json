@@ -1,0 +1,8 @@
+{
+  "question": "JSON文件与Python字典有什么区别",
+  "model": null,
+  "answer": null,
+  "elapsed_time_ms": 2406.9565999670886,
+  "status": "failed",
+  "error": "OpenAI API returned an API Error: Error code: 404 - The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again."
+}

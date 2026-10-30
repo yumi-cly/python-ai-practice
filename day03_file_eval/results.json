@@ -1,0 +1,13 @@
+{
+  "threshold_ms": 2000,
+  "results": [],
+  "summary": {
+    "total_count": 0,
+    "passed_count": 0,
+    "failed_count": 0,
+    "slow_count": 0,
+    "passed_slow_count": 0,
+    "pass_rate": null,
+    "average_latency_ms": null
+  }
+}
