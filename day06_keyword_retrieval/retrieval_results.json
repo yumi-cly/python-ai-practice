@@ -1,0 +1,23 @@
+{
+  "keywords": [
+    "保修",
+    "人为损坏"
+  ],
+  "results": [
+    {
+      "source": "02_warranty.txt",
+      "text": "产品A保修12个月。人为损坏不在保修范围。",
+      "matched_keywords": [
+        "保修",
+        "人为损坏"
+      ]
+    },
+    {
+      "source": "03_returns.txt",
+      "text": "产品A签收后7天内可申请退货，需包装完整且配件齐全。人为损坏不支持退货。",
+      "matched_keywords": [
+        "人为损坏"
+      ]
+    }
+  ]
+}
