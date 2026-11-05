@@ -1,0 +1,7 @@
+[
+  {"id":"Q001","question":"用三句话解释什么是RAG"},
+  {"id":"Q002","question":"JSON文件与Python字典有什么区别"},
+  {"id":"Q003","question":"用一个例子解释return与print的区别"},
+  {"id":"Q004","question":"for循环中的break和continue有什么区别"},
+  {"id":"Q005","question":"为什么空列表统计要避免除以零"}
+]
