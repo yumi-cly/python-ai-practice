@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Q001",
+    "question": "产品A保修多久？人为损坏是否保修？",
+    "keywords": ["保修"],
+    "expected": {
+      "status": "completed",
+      "sources": ["02_warranty.txt"],
+      "required_terms": ["12个月", "人为损坏"]
+    }
+  },
+    {
+    "id": "Q002",
+    "question": "签收后几天内可申请退货？",
+    "keywords": ["退货"],
+    "expected": {
+      "status": "completed",
+      "sources": ["03_returns.txt"],
+      "required_terms": ["7天"]
+    }
+  },
+  {
+    "id": "Q003",
+    "question": "产品A续航多久？？",
+    "keywords": ["蓝牙"],
+    "expected": {
+      "status": "completed",
+      "sources": ["01_product.txt"],
+      "required_terms": ["8小时"]
+    }
+  },
+  {
+    "id": "Q004",
+    "question": "是否支持开电子发票？",
+    "keywords": ["发票"],
+    "expected": {
+      "status": "no_hit",
+      "sources": [],
+      "required_terms": []
+    }
+  },
+  {
+    "id": "Q005",
+    "question": "保修是否包含上门维修？",
+    "keywords": ["保修"],
+    "expected": {
+      "status": "completed",
+      "sources": ["02_warranty.txt"],
+      "required_terms": ["资料不足"]
+    }
+  } 
+]

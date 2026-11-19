@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "total": 5,
+    "passed": 4,
+    "not_passed": 1,
+    "rule_pass_rate": 0.8
+  },
+  "results": [
+    {
+      "record": {
+        "id": "Q001",
+        "question": "产品A保修多久？人为损坏是否保修？",
+        "keywords": [
+          "保修"
+        ],
+        "sources": [
+          "02_warranty.txt"
+        ],
+        "answer": "产品A保修12个月；人为损坏不在保修范围，不予保修。（来源：02_warranty.txt）",
+        "status": "completed",
+        "error": null
+      },
+      "evaluation": {
+        "passed": true,
+        "reasons": []
+      }
+    },
+    {
+      "record": {
+        "id": "Q002",
+        "question": "签收后几天内可申请退货？",
+        "keywords": [
+          "退货"
+        ],
+        "sources": [
+          "03_returns.txt"
+        ],
+        "answer": "产品A签收后7天内可申请退货。（来源：03_returns.txt）",
+        "status": "completed",
+        "error": null
+      },
+      "evaluation": {
+        "passed": true,
+        "reasons": []
+      }
+    },
+    {
+      "record": {
+        "id": "Q003",
+        "question": "产品A续航多久？？",
+        "keywords": [
+          "蓝牙"
+        ],
+        "sources": [
+          "01_product.txt"
+        ],
+        "answer": "产品A续航8小时。（来源：01_product.txt）",
+        "status": "completed",
+        "error": null
+      },
+      "evaluation": {
+        "passed": true,
+        "reasons": []
+      }
+    },
+    {
+      "record": {
+        "id": "Q004",
+        "question": "是否支持开电子发票？",
+        "keywords": [
+          "发票"
+        ],
+        "sources": [],
+        "answer": "资料不足，无法确定。未提供来源文件，无法标注。",
+        "status": "completed",
+        "error": null
+      },
+      "evaluation": {
+        "passed": false,
+        "reasons": [
+          "状态不符：预期no_hit，实际completed"
+        ]
+      }
+    },
+    {
+      "record": {
+        "id": "Q005",
+        "question": "保修是否包含上门维修？",
+        "keywords": [
+          "保修"
+        ],
+        "sources": [
+          "02_warranty.txt"
+        ],
+        "answer": "资料不足，无法确定。02_warranty.txt 仅说明产品A保修12个月、人为损坏不在保修范围，未说明是否包含上门维修。",
+        "status": "completed",
+        "error": null
+      },
+      "evaluation": {
+        "passed": true,
+        "reasons": []
+      }
+    }
+  ]
+}

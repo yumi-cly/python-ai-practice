@@ -12,12 +12,12 @@ def call_model(question):
     client = OpenAI(
         base_url="https://foundry-yumi.openai.azure.com/openai/v1/",
         api_key=token_provider(),
-        timeout=2.0,     # 超时 2000 毫秒(单位是秒)
+        timeout=30.0,     # 单位是秒
         max_retries=0,   # openai 客户端默认超时/连接失败会自动重试 2 次,不关掉的话实际要等 3 轮超时才抛异常,设为 0 才能让超时立刻生效
     )
 
     response = client.responses.create(
-        model="gpt-6.1-s",
+        model="gpt-6.1-sol",
         input=question
     )
 
