@@ -1,0 +1,64 @@
+{
+  "document_count": 3,
+  "chunk_count": 7,
+  "chunks_size": 20,
+  "chunks_overlap": 4,
+  "chunks": [
+    {
+      "chunk_id": 1,
+      "page_content": "产品A支持蓝牙连接，续航8小时",
+      "metadata": {
+        "source": "01_product.txt",
+        "start_index": 0
+      }
+    },
+    {
+      "chunk_id": 2,
+      "page_content": "。充电约2小时。",
+      "metadata": {
+        "source": "01_product.txt",
+        "start_index": 15
+      }
+    },
+    {
+      "chunk_id": 3,
+      "page_content": "产品A保修12个月。人为损坏不在保修范围",
+      "metadata": {
+        "source": "02_warranty.txt",
+        "start_index": 0
+      }
+    },
+    {
+      "chunk_id": 4,
+      "page_content": "。",
+      "metadata": {
+        "source": "02_warranty.txt",
+        "start_index": 20
+      }
+    },
+    {
+      "chunk_id": 5,
+      "page_content": "产品A签收后7天内可申请退货",
+      "metadata": {
+        "source": "03_returns.txt",
+        "start_index": 0
+      }
+    },
+    {
+      "chunk_id": 6,
+      "page_content": "，需包装完整且配件齐全",
+      "metadata": {
+        "source": "03_returns.txt",
+        "start_index": 14
+      }
+    },
+    {
+      "chunk_id": 7,
+      "page_content": "。人为损坏不支持退货。",
+      "metadata": {
+        "source": "03_returns.txt",
+        "start_index": 25
+      }
+    }
+  ]
+}
